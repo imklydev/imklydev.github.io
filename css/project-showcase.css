@@ -1,0 +1,48 @@
+.project-showcases-section {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+
+}
+
+.project-showcase {
+    width: 500px;
+    height: 250px;
+    border: 1px #3D444D solid;
+    border-radius: .375rem;
+    margin: 7px;
+
+    box-sizing: border-box;
+    padding-left: 45px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-showcase h1 {
+    color: #3D7ECF;
+}
+
+
+.project-showcase .languages-used {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+    margin-bottom: 20px;
+}
+
+.project-showcase .languages-used .circle-thingy {
+    border-radius: 100%;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+}
+
+.project-showcase .languages-used span {
+    margin: 0;
+    padding: 0;
+}

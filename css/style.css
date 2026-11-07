@@ -24,20 +24,24 @@ body {
   scrollbar-width: none;  /* Firefox */
 }
 
-p {
+p, span {
     font-weight: 450;
-    font-size: .75rem;
-    color: #f0f6fc;
+    font-size: .9rem;
+    color: #9198a1;
+}
+
+a {
+    text-decoration: none;
 }
 
 @media (width < 1000px) {
-    p {
+    p, span {
         font-size: .70rem;
     }
 }
 
 @media (width < 800px) {
-    p {
+    p, span {
         font-size: .55rem;
     }
 }
