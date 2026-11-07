@@ -3,7 +3,6 @@
     grid-template-columns: repeat(2, max-content);
     grid-template-rows: 1fr 1fr;
     justify-content: space-between;
-
 }
 
 .project-showcase {
@@ -45,4 +44,37 @@
 .project-showcase .languages-used span {
     margin: 0;
     padding: 0;
+}
+
+@media (width <= 1064px) {
+    .project-showcases-section {
+        display: grid;
+        grid-template-columns: repeat(1, max-content);
+        justify-content: space-between;
+    }
+
+    .project-showcase {
+        padding-left: 25px;
+        width: 85vw;
+    }
+}
+
+@media (width < 550px) {
+
+    .github-contribution-square {
+        width: 6px;
+        height: 6px;
+        border-radius: 1px;
+    }
+
+}
+
+@media (width < 420px) {
+
+    .github-contribution-square {
+        width: 5px;
+        height: 5px;
+        border-radius: 1px;
+    }
+
 }

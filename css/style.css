@@ -33,15 +33,3 @@ p, span {
 a {
     text-decoration: none;
 }
-
-@media (width < 1000px) {
-    p, span {
-        font-size: .70rem;
-    }
-}
-
-@media (width < 800px) {
-    p, span {
-        font-size: .55rem;
-    }
-}
