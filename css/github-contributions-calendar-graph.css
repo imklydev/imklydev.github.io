@@ -14,8 +14,8 @@
 
 .github-contribution-square {
     background-color: #10151C;
-    width: 14px;
-    height: 14px;
+    width: 15px;
+    height: 15px;
     border-radius: 2px;
 }
 
@@ -37,20 +37,23 @@
 
 
 
-@media (width < 1000px) {
-    .github-contribution-square {
-        width: 10px;
-        height: 10px;
-        border-radius: 2px;
+@media (width < 1064px) {
+    .github-contributions-calendar-graph {
+        max-width: 85vw;
+        overflow: hidden;
     }
 }
 
 @media (width < 800px) {
 
     .github-contributions-calendar-graph {
-        gap: 2px;
-        max-width: 80vw;
-        overflow: hidden;
+        gap: 3px;
+    }
+
+    .github-contribution-square {
+        width: 9px;
+        height: 9px;
+        border-radius: 2px;
     }
 
 }
@@ -66,6 +69,10 @@
 }
 
 @media (width < 420px) {
+
+    .github-contributions-calendar-graph {
+        gap: 5;
+    }
 
     .github-contribution-square {
         width: 5px;

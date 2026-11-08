@@ -1,8 +1,10 @@
 .project-showcases-section {
     display: grid;
     grid-template-columns: repeat(2, max-content);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     justify-content: space-between;
+
+    margin-bottom: 100px;
 }
 
 .project-showcase {
