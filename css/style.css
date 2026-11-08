@@ -30,7 +30,15 @@ p, span {
     color: #9198a1;
 }
 
+
 a {
     text-decoration: none;
-    color: white;
+    color: #f0f6fc;
+    opacity: 85%;
+    transition: opacity 100ms ease-in-out;
+}
+
+a:hover {
+    opacity: 100%;
+    transition: opacity 100ms ease-in-out;
 }

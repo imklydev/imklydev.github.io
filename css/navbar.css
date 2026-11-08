@@ -1,6 +1,7 @@
 .navbar {
     position: sticky;
     top: 0;
+    z-index: 5000;
 
     height: 50px;
     width: 100vw;
@@ -41,11 +42,13 @@
 .navbar span a {
     text-decoration: none;
     color: #f0f6fc;
+    opacity: 85%;
+    transition: opacity 100ms ease-in-out;
 }
 
 .navbar span a:hover {
-    color: #d7dadd;
-    transition: color 100ms ease-in-out;
+    opacity: 100%;
+    transition: opacity 100ms ease-in-out;
 }
 
 .navbar .links {
