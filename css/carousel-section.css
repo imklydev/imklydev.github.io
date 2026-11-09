@@ -79,21 +79,23 @@
 .carousel-track .element .description {
     overflow: hidden;
     height: 0px;
-    transition: height 350ms ease-in-out;
 
     margin: 0;
     padding: 0;
+
+    transition: height 350ms ease-in-out;
 }
 
 
 .carousel-track .element .description p {
+    width: 100%;
     margin: 0;
     padding: 5px;
 }
 
 .carousel-track .element:hover .description {
     height: fit-content;
-    transition: height 350ms ease-in-out;
+    transition: height 650ms ease-in-out;
 }
 
 @media (width <= 1024px) {
