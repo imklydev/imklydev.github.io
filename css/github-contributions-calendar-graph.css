@@ -68,21 +68,7 @@
 
 }
 
-@media (width < 420px) {
-
-    .github-contributions-calendar-graph {
-        gap: 5;
-    }
-
-    .github-contribution-square {
-        width: 5px;
-        height: 5px;
-        border-radius: 1px;
-    }
-
-}
-
-@media (width < 385px) {
+@media (width < 425px) {
 
     .github-contributions-calendar-graph {
         gap: 2px;
