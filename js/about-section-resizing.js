@@ -9,4 +9,4 @@ function fitText()
 }
 
 fitText();
-new ResizeObserver(fitText).observe(about_section_line_numbers)
+new ResizeObserver(fitText).observe(about_section_text)

@@ -1,7 +1,8 @@
 
 .about-section {
     max-width: 85vw;
-    min-width: 52vw;
+
+    width: 1000px;
 
     border: 1px #3D444D solid;
     border-radius: .375rem;
@@ -51,6 +52,7 @@
 .about-section .body .text {
     font-size: 15px;
 
+    width: 80%;
     
     box-sizing: border-box;
     padding-right: 20px;

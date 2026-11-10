@@ -81,3 +81,17 @@
     }
 
 }
+
+@media (width < 385px) {
+
+    .github-contributions-calendar-graph {
+        gap: 2px;
+    }
+
+    .github-contribution-square {
+        width: 5px;
+        height: 5px;
+        border-radius: 1px;
+    }
+
+}
